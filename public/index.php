@@ -6,19 +6,14 @@
 	<body>
 		<div id="container">
 			<div id="logo">
-				<img src="/images/orchestra_logo_on_light.png">
+				<img src="/images/logo-engineyard.png">
 			</div>
 			<div id="content">
+				
 				<h2>Seriously, how easy was that?!</h2>
-				<p>This is just a simple bit of code, deployed from a <a href="https://github.com/orchestra-io/howto">repository on GitHub</a> and a <strong>master</strong> branch to show you how  you can be quickly up and running.</p>
-				<p>
-					You can delete this deployed app from your <a href="https://my.orchestra.io/apps">app dashboard</a> by clicking "Terminate".
-				</p>
-				<p>Now, go! <a href="https://my.orchestra.io/apps/create/free?">Start deploying</a> from your own Git or Subversion repositories. We've got some easy to read documentation on that, if you need it:
-				<ul>
-					<li><a href="http://docs.orchestra.io//kb/getting-started/deploy-with-git">Deploy onto Orchestra from Git</a></li>
-					<li><a href="http://docs.orchestra.io//kb/getting-started/deploy-with-subversion">Deploy onto Orchestra from Subversion</a></li>
-				</ul>
+
+				<p>This is just a simple bit of code, deployed from a <a href="https://github.com/engineyard/howto">repository on GitHub</a> and a <strong>master</strong> branch to show you how  you can be quickly up and running.</p>
+				
 				<h2>Test data from <a href="http://php.net/">PHP</a></h2>
 				<p>
 				<?php

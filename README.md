@@ -1,4 +1,4 @@
-Orchestra "HOWTO" application
+Engine Yard "HOWTO" application
 =============================
 
 Introduction
@@ -9,7 +9,7 @@ This is an example application. This application has an index.php that outputs s
 
 What then
 ---------
-From your Orchestra dashboard, click on **Deploy New App**. In your **Repo URL** field, place the url: ***git://github.com/orchestra-io/howto.git*** and set your **index file**  to ***public/index.php*** then launch the application.
+From your Engine Yard dashboard, click on **Deploy New App**. In your **Repo URL** field, place the url: ***git://github.com/engineyard/howto.git*** and set your **index file**  to ***public/index.php*** then launch the application.
 
 
-info@orchestra.io
+info@engineyard.com
