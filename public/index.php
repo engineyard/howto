@@ -20,7 +20,14 @@
                     $version = phpversion();
 					echo "<p>Your app is running on PHP version: " . $version . "<br/></p>";
 					echo "<p>The app IP is: " . $_SERVER['SERVER_ADDR'] . "<br/></p>";
-					echo "<p>The client IP is : " . $_SERVER['HTTP_X_FORWARDED_FOR'] . "<br/></p>";
+					// Solos will return a remote_addr correctly,
+					// HAProxy passes client IP using the X_Forwarded_For header
+					if(isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+						$client_ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+					} else {
+						$client_ip = $_SERVER['REMOTE_ADDR'];
+					}
+					echo "<p>The client IP is : " . $client_ip . "<br/></p>";
 					echo "<p>Temp dir available to your app is: " . sys_get_temp_dir() . "</p>";
 				?>
 				</p>
